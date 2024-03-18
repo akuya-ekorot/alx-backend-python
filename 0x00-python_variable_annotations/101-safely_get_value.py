@@ -12,6 +12,7 @@ def safely_get_value(
     key: Any,
     default: Union[T, None] = None
 ) -> Union[Any, T]:
+    '''Safe get value from dictionary.'''
     if key in dct:
         return dct[key]
     else:
