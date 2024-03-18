@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-'''Annotated function that takes a sequence and returns its first element.'''
+'''Annotated function that takes a sequence
+and returns its first element.
+'''
 
 from typing import Sequence, Union, Any
 
