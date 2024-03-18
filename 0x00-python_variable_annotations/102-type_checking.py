@@ -4,8 +4,9 @@
 from typing import List, Tuple
 
 
-def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List[int]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     '''Zoom in on a list of integers by a given factor.'''
+
     zoomed_in: List = [
         item for item in lst
         for i in range(int(factor))
